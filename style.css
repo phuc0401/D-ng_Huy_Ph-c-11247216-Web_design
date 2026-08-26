@@ -1,0 +1,53 @@
+h1{
+    color:  #c81d11;
+    font-style: italic;
+    padding: 16px;
+    border:  2px solid #c86161
+
+}
+.highlight {
+    background-color: yellow;
+    color: red;
+}
+
+h1{
+    /*margin: 20px 5px 30px 60px; */
+    margin-top : 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+.card{
+    padding: 16px;
+
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    background-color: pink;
+    gap: 16px;
+}
+
+@media screen and(max-width: 768px){
+    .dashboard{
+        flex-direction: column;
+    }
+}
+
+
+.card{
+    flex: 1 1 200px;
+    background: orange;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(234, 9, 9, 0.1);
+    border: 4px dashed;
+    padding: 18px;
+    margin: 16px;
+}
