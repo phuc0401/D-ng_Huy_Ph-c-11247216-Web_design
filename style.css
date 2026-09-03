@@ -1,5 +1,5 @@
 h1{
-    color:  #c81d11;
+    color: blue;
     font-style: italic;
     padding: 16px;
     border:  2px solid #c86161
@@ -50,4 +50,8 @@ h1{
     border: 4px dashed;
     padding: 18px;
     margin: 16px;
+}
+
+table{
+    background-color: rgb(225, 225, 233)
 }
